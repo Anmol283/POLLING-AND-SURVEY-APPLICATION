@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\damar\OneDrive\Desktop\FEE Project-2\CSSpersonalDetails.css">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Eo_circle_green_letter-p.svg/480px-Eo_circle_green_letter-p.svg.png" type="image/x-icon">
+    <title>PollSy|Polling and Survey Application|Personal-Details_Form/</title>
+</head>
+<body>
+    <script type="text/javascript">
+        alert("YOU HAVE SUCESSFULLY LOGGED IN!");
+      </script>
+    <div id="heading">
+	<h2>POLLING AND SURVEY APPLICATION</h2>
+        <h4>All About Social Media</h4>
+        <p id="p1"> For Survey Fill Your Necessary Information (*Required)</p>
+    </div>
+
+    <form>
+        <div class="Elements" id="div1">
+            <div id="question"><label for="name">Name <sup id="p1">*</sup></label></div>
+            <div class="Sub-elements">
+            <input type="text" name="MyName" id="name" placeholder="Enter Your Name " required>   </div>
+        </div>
+
+        <div class="Elements" id="div1">
+            <div id="question"><label for="email"> E-mail <sup id="p1">*</sup></label>
+            <div id="box">
+            <input type="email" name="MyMail" id="email" placeholder="Enter Your E-mail " required>  </div>
+        </div>
+        <br>
+
+        <div class="Elements" id="div1" ><br>
+            <label for="gender" > Gender <sup id="p1">*</sup> &nbsp; </label>
+            <div id="box">
+              Male<input type="radio" name="MyGender" id="gender">&nbsp; Female<input type="radio" name="MyGender" id="gender">&nbsp; Other<input type="radio" name="MyGender" id="gender">  </div>
+        </div>
+
+        <div class="Elements" id="div1"><br>
+            <label for="age"> Date of Birth <sup id="p1">*</sup> &nbsp; </label>
+            <div id="box">
+                <form>
+                    <input type="date" size="30" class="form-control" required>
+                </form>  </div>
+        </div>
+        <div class="Elements" id="div1"><br>
+            <label for="describe"> Which option best descibes you ? <sup id="p1">*</sup></label>
+            <div id="box">
+                <select name="MyDescribe" id="describe">
+                    <option value="stu"> Student </option>
+                    <option value="tea"> Teacher </option>
+                    <option value="gau"> Guardian </option>
+                </select>  </div> 
+        </div> 
+            <br>
+        <div class="questions ">
+            <a href="C:\Users\damar\OneDrive\Desktop\FEE Project-2\Questionnaire.html">
+                <input type="button" value="Move to Questionnaire"> </a>
+                <input type="reset" role="reset">
+            <br>
+        </div>
+        </div>
+    </form>
+</body>
+</html>

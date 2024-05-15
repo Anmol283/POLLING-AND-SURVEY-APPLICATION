@@ -1,0 +1,184 @@
+body{
+	background-image:url("https://assets.glginsights.com/wp-content/uploads/2020/01/survey_design-scaled-1500x595.png");
+	font-family: Roboto,Sans-serif;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+form{
+	height: 1100px;
+	width: 678px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#div1{
+	height: 150px;
+	width: 650px;
+	background-color:white;
+	margin: 20px auto;
+	border-radius: 8px;
+	border-style:double;
+	border-color: black;
+	text-align: center;
+	text-decoration: dashed;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 20px;
+	margin-top: 20px;
+	padding:20px;
+
+}
+
+#div2{
+	height: 500px;
+	width: 650px;
+	background-color:white;
+	margin: 20px auto;
+	border-radius: 8px;
+	border-style: double;
+	padding:20px;
+}
+
+#div3{
+	height: 100px;
+	width: 650px;
+	background-color:white;
+	margin: 20px auto;
+	border-radius: 8px;
+	border-style: double;
+	padding:20px;
+}
+
+#question{
+	font-family: Roboto,Sans-serif;
+	padding-top: 25px;
+	padding-left: 25px;
+}
+
+.input-div input{
+	width: 300px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1.5px solid #DCD7D7;
+	font-size: 15px;
+}
+
+.last-div h2{
+	text-align: center;
+	padding-top: 50px;
+	color: #a2a4a6;
+	font-weight: 200;
+}
+
+.term{
+	font-size: 12px;
+	padding-left: 65px;
+	padding-top: 5px;
+	position: absolute;
+}
+
+.never{
+	padding-left: 15px;
+	font-size: 12px;
+	padding-top: 70px;
+	font-weight: 400;
+}
+
+.p2{
+	font-size:24px;
+	color:paleturquoise;
+	text-align: start;
+}
+
+.sub-elements{
+	padding-top: 70px;
+}
+
+#ques9{
+	text-align:start;
+	margin-left: 10px;
+}
+
+#extra{
+	text-align: start;
+	margin-left: 10px;
+}
+
+#box{
+	padding-top: 30px;
+}
+
+#ques{
+	color:beige;
+	text-align: center;
+	font-family:  Arial, sans-serif;
+
+}
+
+a{
+	color:#FDFEFE;
+}
+
+table {
+	width: 90%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+th, td {
+	border: 1px solid #ddd;
+	padding: 12px;
+	text-align: left;
+}
+
+th {
+	background-color: #af6d4c;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.question-text {
+	font-weight: bold;
+}
+
+.checkbox-cell {
+	text-align: center;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5); /* Increase checkbox size */
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+  }
+  
+  .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+  }
+  
+  .box {
+	width: 100px;
+	height: 100px;
+	background-color: #3498db;
+	margin: 10px;
+  }
+  

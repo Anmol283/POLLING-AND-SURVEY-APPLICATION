@@ -1,0 +1,168 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PollSy|Polling and Survey Application|HomePage</title>
+    <link rel="stylesheet" href="C:\Users\damar\OneDrive\Desktop\FEE Project-2\CSSwelcomePage.css">
+    <link rel="stylesheet" href="C:\Users\damar\OneDrive\Desktop\FEE Project-2\CSSloginPage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Eo_circle_green_letter-p.svg/480px-Eo_circle_green_letter-p.svg.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <img src="C:\Users\damar\OneDrive\Desktop\PollSy.jpg" alt="logo" id="navbar-logo">
+      <h2 class="logo"><a href="#">PollSy</a></h2>
+      <nav class="navbar">
+        <ul class="all-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Importance of Polling</a></li>
+          <li><a href="#portfolio">Our Services</a></li>
+          <li><a href="#about"> About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></li>
+
+          <div id="id01" class="modal">
+            <img src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_5089976.jpg" class="pic">
+        <h1 class="here" id="lo">LOGIN HERE</h1>
+        <br>
+            <form class="modal-content animate" action="C:\Users\damar\OneDrive\Desktop\FEE Project-2\PersonalDetails.html" method="post">
+              <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                  <button type="submit">Login</button>             
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+              </div>  
+              <div class="container" style="background-color:#ffffff">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw"><a href="#" style="color: black;">Forget password?</a></span>
+              </div>
+            </form>
+          </div> 
+          
+          <script>
+          var modal = document.getElementById('id01');
+          window.onclick = function(event) {
+              if (event.target == modal) {
+                  modal.style.display = "none";
+              }
+          }
+          </script> 
+        </ul>
+      </nav>
+    </header>
+
+    <section class="homepage" id="home">
+      <div class="content">
+        <div class="text">
+          <h1>Polling and Survey Application</h1>
+          <P>Where you can put forth your opinions without any worries...</P>
+        </div>
+        <a href="#services">Let's begin !!</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2>Learn more about Polling and Survey</h2>
+      
+      <ul class="cards">
+        <li class="card">
+          <h3> Informed Decision-Making:</h3>
+          <p>
+            Polling and surveys play a crucial role in providing valuable insights into public opinions and preferences. In various contexts, such as politics, business, or social issues, understanding the perspectives of a diverse population allows decision-makers to make informed choices.
+            Politicians can gauge voter sentiment, businesses can tailor their products or services to meet consumer needs, and policymakers can address societal concerns more effectively.
+          </p>
+        </li>
+        <li class="card">
+        <h3> Representation of Diverse Perspectives:</h3>
+        <p>
+          Polls and surveys are essential tools for ensuring the representation of diverse voices. By collecting data from a wide range of demographics, including different age groups, ethnicities, socioeconomic statuses, and geographic locations, researchers can paint a more accurate picture of public sentiment. This inclusivity helps prevent the dominance of a particular group's opinions and contributes to a more democratic decision-making process.
+        </p>
+        </li>
+        <li class="card">
+        <h3>Monitoring Social Trends and Changes:</h3>
+          <p>
+            Polling and surveys provide a dynamic snapshot of society, allowing for the monitoring of trends and changes over time. This longitudinal data is valuable for understanding shifts in public opinion, tracking societal progress, and identifying emerging issues. Whether it's tracking changes in political ideologies, consumer behaviors, or societal attitudes, this information is instrumental for adapting strategies and policies to align with evolving public sentiments.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2>Our Services</h2>
+      <p>For this particular survey provided by our team , it's all about social media.</p>
+      <br>
+      <p> Kindly login and fill the form to be a part of our survey providing your opinions about social media :) </p>
+      <p>You can also provide with suggestions for our next Polling and Survey Application by giving us with your feedback :)</p>
+     <!--<a href=""> Go to Login </a>-->
+     <!--<br><br><br><br><br><br><br><br><br><br><br><br><br>-->
+      </section>
+    <section class="about" id="about">
+      <h2>About Us</h2>
+      <p>Discover our story </p>
+      <div class="row company-info">
+        <h3>Our Story</h3>
+        <p>Welcome to the heart of democracy and public opinion – our story begins with a passion for understanding the pulse of society. Founded with the belief that every voice matters, our journey in the realm of polling and surveys is a testament to the power of collective insight. What started as a humble initiative has grown into a dynamic platform dedicated to unraveling the intricacies of public sentiment. We've tirelessly worked to create a space where diverse perspectives converge, providing a panoramic view of the thoughts that shape our world. Our commitment extends beyond numbers; it's about fostering inclusivity, ensuring representation, and empowering decision-makers with the knowledge to drive positive change. Join us on this exciting venture as we continue to unfold the narrative of people's opinions, one survey at a time.</p>
+      </div>
+      <div class="row mission-vision">
+        <h3>Our Mission</h3>
+        <p>At the core of our existence is a resolute mission – to be the compass guiding decision-makers through the labyrinth of public opinion. We strive to democratize insights, making the rich tapestry of diverse perspectives accessible to all. Our mission is anchored in the belief that informed decisions lead to positive transformations. By harnessing the power of polls and surveys, we aim to amplify the voices of the unheard, eradicate biases, and provide an accurate reflection of societal nuances. Through cutting-edge technology and a commitment to inclusivity, our mission is to empower individuals, businesses, and policymakers with the knowledge needed to navigate the ever-evolving landscape of public sentiment, fostering a world where decisions are not just made but made wisely. Join us in our pursuit of a more informed, equitable, and responsive future.
+        </p>
+        <h3>Our Vision</h3>
+        <p>In envisioning the future, we see a world where every opinion matters, and decision-making is truly democratic. Our vision is to be the pioneering force in shaping a global dialogue through innovative and insightful polling and survey solutions. We aspire to create a platform that transcends boundaries, fostering inclusivity and ensuring that the diversity of voices is not just acknowledged but celebrated. By leveraging advanced technologies and methodologies, we aim to set new standards in understanding public sentiment, paving the way for informed and equitable decisions across various domains. Our vision is a society where the power of collective wisdom fuels progress, and our commitment is to be the catalyst for positive change in the way we comprehend and respond to the world's evolving opinions. Join us on this journey as we strive to turn our vision into a reality that transforms the landscape of decision-making.
+        </p>
+      </div>
+      <div class="row team">
+        <h3>Our Team</h3>
+        <ul>
+          <li>Anmol (2310991692)</li>
+          <li>Jiya  (2310991693)</li>
+          <li>Ansh  (2310991694)</li>
+            </ul>
+      </div>
+           
+    </section>
+
+    
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out to us for any inquiries or feedback.</p>
+        <div class="row">
+          <div class="col information">
+            <div class="contact-details">
+              <p><i class="fas fa-map-marker-alt"></i> 123 Campsite Avenue, Wilderness, CA 98765</p>
+              <p><i class="fas fa-envelope"></i> anmol1692.be23@chitkara.edu.in</p>
+              <p><i class="fas fa-envelope"></i> jiya1693.be23@chitkara.edu.in</p>
+              <p><i class="fas fa-envelope"></i> ansh1694.be23@chitkara.edu.in</p>
+              <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+              <p><i class="fas fa-clock"></i> Monday - Saturday: 9:00 AM - 5:00 PM</p>
+              <p><i class="fas fa-clock"></i> Sunday: Closed</p>
+              <p><i class="fas fa-globe"></i> www.pollsy.com</p>
+            </div>          
+          </div>
+          <div class="col form">
+            <form>
+              <input type="text" placeholder="Name*" required>
+              <input type="email" placeholder="Email*" required>
+              <textarea placeholder="Feedback" required></textarea>
+              <button id="submit" type="submit">Send Feedback</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    
+    <footer>
+      <img src="C:\Users\damar\OneDrive\Desktop\PollSy.jpg" alt="logo" id="navbar-logo">
+      <div>
+        <span>Copyright © 2023 All Rights Reserved</span>
+        <span class="link">
+            <a href="#">Home</a>
+        </span>
+      </div>
+    </footer>
+
+  </body>
+</html>
